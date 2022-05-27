@@ -3,8 +3,6 @@ package com.study.tlilley;
 import java.util.Arrays;
 
 /**
- * Trent Lilley -- MSWE -- 241P -- E3: Graph Data Structures
- *
  * This program uses the Graph Class to convert a list of edges to each of the three graph data structures directly
  * Three static methods below the main method are used to convert between the graph representations
  * Compare the expected results printed by the Graph Class to the results printed by the static methods below main()
@@ -43,7 +41,7 @@ public class Main {
     }
 
 
-    /** Q1: Converts an adjacency list to an incidence matrix
+    /** Converts an adjacency list to an incidence matrix
      * Algorithm time complexity depends on O(number of vertices) * O(number of vertices)
      * Time complexity: O(n^2)
      * */
@@ -67,7 +65,7 @@ public class Main {
         System.out.println("");
     }
 
-    /**Q2: Converts an adjacency list to an incidence matrix
+    /**Converts an adjacency list to an incidence matrix
      * collecting the number of edges in the adjacency list takes O(number of vertices) * O(number of items in each linked list)
      * reconstructing the edges also takes O(number of vertices) * O(number of items in each linked list)
      * creating the incidence matrix takes O(number of vertices) * O(number of edges)
@@ -131,7 +129,7 @@ public class Main {
         System.out.println("");
     }
 
-    /**Q3: Converts an Incidence Matrix to Adjacency List
+    /**Converts an Incidence Matrix to Adjacency List
      * reconstructing the edges takes O(number of vertices) * O(number of edges)
      * creating the adjacency list takes O(number of edges * 2)
      * Time Complexity: O(n*m)
